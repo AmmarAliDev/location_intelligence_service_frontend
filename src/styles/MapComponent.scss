@@ -1,0 +1,28 @@
+.map-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.edit-container {
+  background: none rgb(255, 255, 255);
+  border: 0px;
+  margin: 10px;
+  padding: 0px;
+  text-transform: none;
+  appearance: none;
+  position: absolute;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 40px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  overflow: hidden;
+  top: 0px;
+  right: 5%;
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
